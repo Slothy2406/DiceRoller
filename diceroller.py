@@ -54,10 +54,9 @@ dicenum = input("How many dice would you like to roll of type " + dicetype + "?"
 #dicenum - check value isnt too big
 
 
+# set list variable for answers
 
 diceresults = []
-
-
 
 
 
