@@ -35,10 +35,31 @@ print (D20ResultMulti)
 # Multiple dice rolls - choice of dice
 
 dicetype = input("What type of dice would you like to roll, D2, D4, D6, D8, D10, D12, D20? ")
-dicenum = input("How many dice would you like to roll of type " + dicetype + "?")
-diceresults = []
+#input validation
+#dicetype - provided response
+#dicetype - check valid Dice type
+
+#dicetype - check case and convert to uppercase
 
 dicetypemax = int(dicetype.replace('D',''))
+
+
+
+dicenum = input("How many dice would you like to roll of type " + dicetype + "?")
+
+
+#dicenum - provided response
+#dicenum - check is a integer
+
+#dicenum - check value isnt too big
+
+
+
+diceresults = []
+
+
+
+
 
 match dicetype:
     case "D2":
